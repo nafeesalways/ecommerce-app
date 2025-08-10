@@ -13,6 +13,7 @@ import PlaceOrder from "../pages/PlaceOrder";
 import Orders from "../pages/Orders";
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -36,7 +37,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'/product/:productId',
-        element:Product,
+       Component:Product,
       },
       {
         path:'/cart',
